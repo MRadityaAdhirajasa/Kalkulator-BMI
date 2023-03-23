@@ -1,0 +1,150 @@
+#calculator {
+    /* membuat halaman berada di kiri */
+    width: 48%;
+    float: left;
+}
+
+#mid{
+    /* membuat halaman berada di tengah */
+    border: 1px solid white;
+    width: 10%;
+    float: left;
+}
+
+#hasil {
+    /* membuat halaman berada di kanan */
+    width: 41%;
+    float: left;
+}
+
+/* card membuat padding memiliki warna dan mengatur tata letak agar berada di tengah */
+.card {
+    background-color: rgb(214, 214, 214);
+    padding: 10px 20px;
+}
+
+.card2 {
+    background-color: rgb(214, 214, 214);
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card3 {
+    background-color: rgb(214, 214, 214);
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mengatur agar teks berada di tengah */
+.footer2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* membuat kolom */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* menebalkan huruf */
+label {
+    font-weight: bold;
+}
+
+/* mengatur size input */
+input[type="text"] {
+    width: 80%;
+}
+
+.icon {
+    width: 20%;
+    border: 1px solid blue;
+}
+
+/* mendesain gambar pensil */
+i{
+    border: 1px solid black;
+    background-color: white;  
+    padding: 1px 3px 4px 4px;
+
+}
+
+/* mendesain button */
+.calculate{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+/* # dibuat untuk desain button */
+#reset{
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: black;
+}
+
+#download{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+#konsultasi{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+#registrasi{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+#konsultasi2{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+#registrasi2{
+    background-color: rgb(13, 119, 161);
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+}
+
+/* atur size gambar/logo */
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* atur agar posisi list berada di kiri  */
+ol {
+    padding: 0px 15px;
+}
+
+/* atur ukuran font berat */
+#berat{
+    font-size: 30px;
+}
+
